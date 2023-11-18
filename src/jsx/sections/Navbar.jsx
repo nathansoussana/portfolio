@@ -16,10 +16,11 @@ export default function Navbar() {
             href="https://github.com/nathansoussana" 
             target="_blank" 
             rel="noopener noreferrer">
-            <img 
+            {/* <img 
               className="navbar-links-li-icon" 
               src="src/assets/github.png"
-            />
+            /> */}
+            <i class="devicon-github-original"></i>
           </a>
         </li>
 
@@ -30,10 +31,11 @@ export default function Navbar() {
             href="https://www.linkedin.com/in/nathansoussana/" 
             target="_blank" 
             rel="noopener noreferrer">
-            <img 
+            {/* <img 
               className="navbar-links-li-icon" 
               src="src/assets/linkedin.png"
-            />
+            /> */}
+            <i class="devicon-linkedin-plain"></i>
           </a>
         </li>
 

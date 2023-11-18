@@ -11,8 +11,8 @@ $serif: 'Ibarra Real Nova', serif
 $sans-serif: 'Public Sans', sans-serif
 
 // Breakpoints
-// $mobile: 400px
-// $tablet: 800px
+$mobile: 400px
+$tablet: 800px
 
 // Text, Background, Button
 *
@@ -73,3 +73,9 @@ h3
 
   &:hover
     background: $hover-color
+
+  // Mobile styles
+  @media screen and (max-width: $mobile)
+    h1
+      font-size: 44px
+      line-height: 44px

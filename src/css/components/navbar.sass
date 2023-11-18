@@ -1,3 +1,5 @@
+@use '../general/general'
+
 nav
   display: flex
   justify-content: space-between
@@ -13,6 +15,16 @@ nav
 .navbar-links-li-link
   display: flex
   align-items: center
+  text-decoration: none
 
 .navbar-links-li-icon
   height: 25px !important
+
+// Icons
+.devicon-github-original, 
+.devicon-linkedin-plain
+  font-size: 25px
+  color: general.$text-color
+
+  &:hover
+    color: general.$hover-color

@@ -65,7 +65,88 @@ h3 {
 .btn-primary:hover {
   background: #5FB4A2;
 }
+@media screen and (max-width: 400px) {
+  .btn-primary h1 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+}
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #FAFAFA;
+  font-family: "Public Sans", sans-serif;
+  color: #33323D;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.main-container {
+  max-width: 1100px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 70px;
+}
+
+h1, h2, h3 {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.45px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.29px;
+}
+
+.btn-primary {
+  text-transform: uppercase;
+  cursor: pointer;
+  background: #203A4C;
+  color: white;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 152px;
+  height: 48px;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background: #5FB4A2;
+}
+
+@media screen and (max-width: 400px) {
+  .btn-primary h1 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -84,10 +165,21 @@ nav {
 .navbar-links-li-link {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .navbar-links-li-icon {
   height: 25px !important;
+}
+
+.devicon-github-original,
+.devicon-linkedin-plain {
+  font-size: 25px;
+  color: #33323D;
+}
+.devicon-github-original:hover,
+.devicon-linkedin-plain:hover {
+  color: #5FB4A2;
 }
 
 .hero {
