@@ -1,3 +1,3 @@
-export default function Button({ text }) {
-  return <a className="btn">{text}</a>
+export default function Button({ text, link }) {
+  return <a className="btn-primary" href={link}>{text}</a>
 }

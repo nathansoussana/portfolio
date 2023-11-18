@@ -37,7 +37,7 @@ export default function Navbar() {
           </a>
         </li>
 
-        {/* Email */}
+        {/* Email
         <li className="navbar-links-li">
           <a 
             className="navbar-links-li-link"
@@ -49,7 +49,7 @@ export default function Navbar() {
               src="src/assets/email.png"
             />
           </a>
-        </li>
+        </li> */}
 
       </ul>
     </nav>
