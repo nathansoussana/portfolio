@@ -1,5 +1,6 @@
 import Navbar from './sections/Navbar'
 import Hero from './sections/Hero'
+import Skills from './sections/Skills'
 
 export default function App() {
 
@@ -7,6 +8,7 @@ export default function App() {
     <main className="main-container">
       <Navbar />
       <Hero />
+      {/* <Skills /> */}
     </main>
   )
 }

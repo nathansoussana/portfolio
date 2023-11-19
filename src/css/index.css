@@ -65,13 +65,13 @@ h3 {
 .btn-primary:hover {
   background: #5FB4A2;
 }
+
 @media screen and (max-width: 400px) {
-  .btn-primary h1 {
-    font-size: 44px;
-    line-height: 44px;
+  h1 {
+    font-size: 40px;
+    line-height: 42px;
   }
 }
-
 * {
   margin: 0;
   box-sizing: border-box;
@@ -142,9 +142,9 @@ h3 {
 }
 
 @media screen and (max-width: 400px) {
-  .btn-primary h1 {
-    font-size: 44px;
-    line-height: 44px;
+  h1 {
+    font-size: 40px;
+    line-height: 42px;
   }
 }
 nav {
@@ -211,10 +211,26 @@ nav {
   .hero {
     flex-direction: column;
     align-items: start;
+    gap: 44px;
   }
   .hero-image {
     max-width: 100%;
   }
+}
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 75px;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.skill-icon {
+  font-size: 75px;
 }
 
 /*# sourceMappingURL=index.css.map */

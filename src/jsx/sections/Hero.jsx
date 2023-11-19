@@ -2,7 +2,6 @@ import Button from '../components/Button'
 
 export default function Hero() {
   return (
-    <div className="navbar-hero">
       <section className="hero">
         
         {/* Content */}
@@ -22,6 +21,5 @@ export default function Hero() {
         {/* Image */}
         <img src="src/assets/photo_2.jpeg" alt="Profile Picture" className="hero-image" />
       </section>
-    </div>
   )
 }
