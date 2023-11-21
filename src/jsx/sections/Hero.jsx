@@ -14,7 +14,7 @@ export default function Hero() {
           <ButtonPrimary text="View Work" link="#" />
         </div>
         {/* Image */}
-        <img src="src/assets/profile_picture.jpeg" alt="Profile Picture" className="hero-image" />
+        <img src="assets/profile_picture.jpeg" alt="Profile Picture" className="hero-image" />
       </section>
   )
 }
