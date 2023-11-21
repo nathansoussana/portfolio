@@ -7,30 +7,12 @@ function contentDirection(index) {
 
 const projects = projectData.map((project, index) => {
   return (
-    <div 
-      className="project"
-      key={project.title}
-      dir={contentDirection(index)}
-    >
-      
-      {/* Image */}
-      <img 
-        // src={project.image} 
-        src="https://placehold.co/500x500"
-        alt={project.title} 
-        className="project-image"
-      />
-
-      {/* Content */}
-      <div className="project-content">
-        <h2 className="project-content-title">
-          {project.title}
-        </h2>
-        <p className="project-content-text">
-          {project.description}
-        </p>
-        <ButtonSecondary 
-          text={project.buttonText} />
+    <div className="project" key={project.title} dir={contentDirection(index)}> 
+      <img src="src/assets/photo.jpeg" alt={project.title} className="project-image" />
+      <div className="project-content" dir='ltr'>
+        <h2 className="project-content-title">{project.title}</h2>
+        <p className="project-content-text">{project.description}</p>
+        <ButtonSecondary text={project.buttonText} />
       </div>
     </div>
   )
@@ -39,9 +21,7 @@ const projects = projectData.map((project, index) => {
 export default function Projects() {
   return (
     <section className="projects-section">
-      {/* <h2 className="projects-section-title">
-        Projects
-      </h2> */}
+      {/* <h2 className="projects-section-title">Projects</h2> */}
       {projects}
     </section>
   )

@@ -9,7 +9,19 @@
   gap: 100px
 
 .project-image
-  max-width: 100%
+  max-width: 45%
 
 .project-content-text
   margin: 25px 0
+
+@media screen and (max-width: 1000px)
+  .project
+    gap: 60px
+
+@media screen and (max-width: 800px)
+  .project-image
+    max-width: 100%
+
+  .project
+    flex-direction: column
+    gap: 40px

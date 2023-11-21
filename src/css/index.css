@@ -213,7 +213,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 25px;
+  gap: 30px;
 }
 
 .hero-content {
@@ -238,7 +238,6 @@ nav {
   .hero {
     flex-direction: column;
     align-items: start;
-    gap: 44px;
   }
   .hero-image {
     max-width: 100%;
@@ -273,11 +272,26 @@ nav {
 }
 
 .project-image {
-  max-width: 100%;
+  max-width: 45%;
 }
 
 .project-content-text {
   margin: 25px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .project {
+    gap: 60px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .project-image {
+    max-width: 100%;
+  }
+  .project {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
