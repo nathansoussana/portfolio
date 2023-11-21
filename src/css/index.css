@@ -520,6 +520,7 @@ li {
 .project-content-btn-container {
   display: flex;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 1000px) {
@@ -534,9 +535,6 @@ li {
   .project {
     flex-direction: column;
     gap: 50px;
-  }
-  .project-content-btn-container {
-    flex-direction: column;
   }
 }
 
