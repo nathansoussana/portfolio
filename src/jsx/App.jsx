@@ -9,7 +9,6 @@ export default function App() {
     <main className="main-container">
       <Navbar />
       <Hero />
-      {/* <Skills /> */}
       <Projects />
     </main>
   )

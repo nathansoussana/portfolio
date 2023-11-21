@@ -322,6 +322,118 @@ li {
     line-height: 42px;
   }
 }
+.skills-list {
+  margin-bottom: 40px;
+  font-weight: 200;
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.skill {
+  color: #FAFAFA;
+  background-color: #5FB4A2;
+  padding: 0 15px;
+  border-radius: 4px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #FAFAFA;
+  font-family: "Public Sans", sans-serif;
+  color: #33323D;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.main-container {
+  max-width: 1100px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 70px;
+}
+
+h1, h2, h3 {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.45px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 42px;
+  letter-spacing: -0.36px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: -0.29px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 152px;
+  height: 48px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #203A4C;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #5FB4A2;
+}
+
+.btn-secondary {
+  border: 1px solid #33323D;
+  background: #FAFAFA;
+  color: #33323D;
+}
+
+.btn-secondary:hover {
+  background: #33323D;
+  color: #FAFAFA;
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+    line-height: 42px;
+  }
+}
 .hero {
   display: flex;
   justify-content: space-between;
@@ -335,21 +447,6 @@ li {
 
 .hero-content-text {
   margin: 40px 0;
-}
-
-.hero-content-skills {
-  margin-bottom: 40px;
-  font-weight: 300;
-  display: flex;
-  gap: 5px;
-  flex-wrap: wrap;
-}
-
-.hero-content-skills-skill {
-  color: #FAFAFA;
-  background-color: #5FB4A2;
-  padding: 0 15px;
-  border-radius: 4px;
 }
 
 .hero-image {
@@ -371,22 +468,6 @@ li {
     max-width: 100%;
   }
 }
-.skills-list {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 75px;
-}
-
-.skill {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-.skill-icon {
-  font-size: 75px;
-}
-
 .projects-section {
   display: flex;
   flex-direction: column;

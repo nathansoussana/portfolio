@@ -2,7 +2,7 @@ import ButtonPrimary from '../components/ButtonPrimary'
 import { skillsData } from '../../data/skills'
 
 const skills = skillsData.map(skill => {
-  return <li className="hero-content-skills-skill">{skill.name}</li>
+  return <li className="skill">{skill.name}</li>
 })
 
 export default function Hero() {
@@ -16,7 +16,7 @@ export default function Hero() {
           <p className="hero-content-text">
             Based in Zürich, Switzlerand, I&apos;m a front-end developer passionate about building beautiful web apps that users love.
           </p>
-          <ul className="hero-content-skills">{skills}</ul>
+          <ul className="skills-list">{skills}</ul>
           <ButtonPrimary text="Contact me" link="mailto:nathan.soussana@gmail.com" />
         </div>
         {/* Image */}
