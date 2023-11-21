@@ -1,9 +1,4 @@
 import ButtonPrimary from '../components/ButtonPrimary'
-import { skillsData } from '../../data/skills'
-
-const skills = skillsData.map(skill => {
-  return <li className="skill">{skill.name}</li>
-})
 
 export default function Hero() {
   return (
@@ -11,13 +6,12 @@ export default function Hero() {
         {/* Content */}
         <div className="hero-content">
           <h1 className="hero-content-title">
-            Nice to meet you!<br/>My name is Nathan Soussana.
+            Nice to meet you!
           </h1>
           <p className="hero-content-text">
-            Based in Zürich, Switzlerand, I&apos;m a front-end developer passionate about building beautiful web apps that users love.
+            My name is Nathan Soussana. I&apos;m a front-end developer in Zürich, Switzlerand passionate about building clean and beautiful web apps that users love. I build primarily with React and JavaScript.
           </p>
-          <ul className="skills-list">{skills}</ul>
-          <ButtonPrimary text="Contact me" link="mailto:nathan.soussana@gmail.com" />
+          <ButtonPrimary text="View Work" link="#" />
         </div>
         {/* Image */}
         <img src="src/assets/photo_2.jpeg" alt="Profile Picture" className="hero-image" />

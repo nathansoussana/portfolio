@@ -9,12 +9,16 @@ const projects = projectData.map((project, index) => {
   return (
     <div className="project" key={project.title} dir={contentDirection(index)}> 
       {/* Project Image */}
-      <img src="src/assets/photo.jpeg" alt={project.title} className="project-image" />
+      <img src={project.image} alt={project.title} className="project-image" />
       {/* Project Content */}
       <div className="project-content" dir='ltr'>
         <h2 className="project-content-title">{project.title}</h2>
         <p className="project-content-text">{project.description}</p>
-        <ButtonSecondary text={project.buttonText} />
+        <p className="project-content-skills">{project.skills}</p>
+        <div className="project-content-btn-container">
+          <ButtonSecondary text={project.websiteBtn} link={project.websiteURL} />
+          <ButtonSecondary text={project.githubBtn} link={project.githubURL} />
+        </div>
       </div>
     </div>
   )
@@ -23,7 +27,6 @@ const projects = projectData.map((project, index) => {
 export default function Projects() {
   return (
     <section className="projects-section">
-      {/* <h2 className="projects-section-title">Projects</h2> */}
       {projects}
     </section>
   )

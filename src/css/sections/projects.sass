@@ -1,7 +1,9 @@
+@use '../general/general'
+  
 .projects-section
   display: flex
   flex-direction: column
-  gap: 80px
+  gap: 100px
   
 .project
   display: flex
@@ -14,9 +16,18 @@
 .project-content-text
   margin: 25px 0
 
+.project-content-skills
+  margin-bottom: 25px
+  color: general.$hover-color-primary
+  font-weight: 600
+
+.project-content-btn-container
+  display: flex
+  gap: 10px
+
 @media screen and (max-width: 1000px)
   .project
-    gap: 60px
+    gap: 50px
 
 @media screen and (max-width: 800px)
   .project-image
@@ -24,4 +35,7 @@
 
   .project
     flex-direction: column
-    gap: 40px
+    gap: 50px
+
+  .project-content-btn-container
+    flex-direction: column
