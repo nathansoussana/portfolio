@@ -1,4 +1,4 @@
-import Button from '../components/Button'
+import ButtonPrimary from '../components/ButtonPrimary'
 
 export default function Hero() {
   return (
@@ -12,7 +12,7 @@ export default function Hero() {
           <p className="hero-content-text">
             Based in Zürich, Switzlerand, I&apos;m a front-end developer passionate about building beautiful web apps that users love.
           </p>
-          <Button 
+          <ButtonPrimary 
             text="Contact me" 
             link="mailto:nathan.soussana@gmail.com"
           />

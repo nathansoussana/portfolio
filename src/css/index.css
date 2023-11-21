@@ -47,11 +47,9 @@ h3 {
   letter-spacing: -0.29px;
 }
 
-.btn-primary {
+.btn {
   text-transform: uppercase;
   cursor: pointer;
-  background: #203A4C;
-  color: white;
   font-size: 12px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -62,8 +60,23 @@ h3 {
   height: 48px;
   text-decoration: none;
 }
+
+.btn-primary {
+  background: #203A4C;
+  color: white;
+}
 .btn-primary:hover {
   background: #5FB4A2;
+}
+
+.btn-secondary {
+  border: 1px solid #33323D;
+  background: #FAFAFA;
+  color: #33323D;
+}
+.btn-secondary:hover {
+  background: #33323D;
+  color: #FAFAFA;
 }
 
 @media screen and (max-width: 400px) {
@@ -121,11 +134,9 @@ h3 {
   letter-spacing: -0.29px;
 }
 
-.btn-primary {
+.btn {
   text-transform: uppercase;
   cursor: pointer;
-  background: #203A4C;
-  color: white;
   font-size: 12px;
   font-weight: 300;
   letter-spacing: 2px;
@@ -137,8 +148,24 @@ h3 {
   text-decoration: none;
 }
 
+.btn-primary {
+  background: #203A4C;
+  color: white;
+}
+
 .btn-primary:hover {
   background: #5FB4A2;
+}
+
+.btn-secondary {
+  border: 1px solid #33323D;
+  background: #FAFAFA;
+  color: #33323D;
+}
+
+.btn-secondary:hover {
+  background: #33323D;
+  color: #FAFAFA;
 }
 
 @media screen and (max-width: 400px) {
@@ -231,6 +258,26 @@ nav {
 
 .skill-icon {
   font-size: 75px;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.project-image {
+  max-width: 100%;
+}
+
+.project-content-text {
+  margin: 25px 0;
 }
 
 /*# sourceMappingURL=index.css.map */

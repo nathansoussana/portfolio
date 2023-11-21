@@ -20,7 +20,7 @@ export default function Navbar() {
               className="navbar-links-li-icon" 
               src="src/assets/github.png"
             /> */}
-            <i class="devicon-github-original"></i>
+            <i className="devicon-github-original"></i>
           </a>
         </li>
 
@@ -35,7 +35,7 @@ export default function Navbar() {
               className="navbar-links-li-icon" 
               src="src/assets/linkedin.png"
             /> */}
-            <i class="devicon-linkedin-plain"></i>
+            <i className="devicon-linkedin-plain"></i>
           </a>
         </li>
 
