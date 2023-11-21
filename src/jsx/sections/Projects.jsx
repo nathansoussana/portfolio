@@ -1,11 +1,16 @@
 import { projectData } from '../../data/projects'
 import ButtonSecondary from '../components/ButtonSecondary'
 
-const projects = projectData.map(project => {
+function contentDirection(index) {
+  return (index % 2 === 0) ? "ltr" : "rtl"
+}
+
+const projects = projectData.map((project, index) => {
   return (
     <div 
       className="project"
       key={project.title}
+      dir={contentDirection(index)}
     >
       
       {/* Image */}
