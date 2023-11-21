@@ -8,7 +8,9 @@ function contentDirection(index) {
 const projects = projectData.map((project, index) => {
   return (
     <div className="project" key={project.title} dir={contentDirection(index)}> 
+      {/* Project Image */}
       <img src="src/assets/photo.jpeg" alt={project.title} className="project-image" />
+      {/* Project Content */}
       <div className="project-content" dir='ltr'>
         <h2 className="project-content-title">{project.title}</h2>
         <p className="project-content-text">{project.description}</p>
