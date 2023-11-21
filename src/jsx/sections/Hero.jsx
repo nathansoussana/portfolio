@@ -9,12 +9,12 @@ export default function Hero() {
             Nice to meet you!
           </h1>
           <p className="hero-content-text">
-            My name is Nathan Soussana. I&apos;m a front-end developer in Zürich, Switzlerand passionate about building clean and beautiful web apps that users love. I build primarily with React and JavaScript.
+            My name is Nathan Soussana. I&apos;m a front-end developer based in Zürich, Switzlerand, passionate about building clean and beautiful web apps that users love. I focus mostly on React and JavaScript.
           </p>
           <ButtonPrimary text="View Work" link="#" />
         </div>
         {/* Image */}
-        <img src="src/assets/photo_2.jpeg" alt="Profile Picture" className="hero-image" />
+        <img src="src/assets/profile_picture.jpeg" alt="Profile Picture" className="hero-image" />
       </section>
   )
 }

@@ -329,7 +329,8 @@ li {
   color: #33323D;
 }
 .btn-secondary:hover {
-  background: #33323D;
+  background: #5FB4A2;
+  border-color: #5FB4A2;
   color: #FAFAFA;
 }
 
@@ -401,10 +402,6 @@ li {
   justify-content: space-between;
   align-items: center;
   gap: 100px;
-}
-
-.hero-content {
-  max-width: 445px;
 }
 
 .hero-content-text {
