@@ -16,7 +16,7 @@ export default function Navbar() {
             className="navbar-links-li-link"
             href="https://github.com/nathansoussana" 
             target="_blank" 
-            rel="noopener noreferrer">
+          >
             <i className="devicon-github-original"></i>
           </a>
         </li>
@@ -27,7 +27,7 @@ export default function Navbar() {
             className="navbar-links-li-link"
             href="https://www.linkedin.com/in/nathansoussana/" 
             target="_blank" 
-            rel="noopener noreferrer">
+          >
             <i className="devicon-linkedin-plain"></i>
           </a>
         </li>

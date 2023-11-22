@@ -413,10 +413,11 @@ li {
     line-height: 42px;
   }
 }
-.projects-section {
+.projects-container {
   display: flex;
   flex-direction: column;
   gap: 100px;
+  margin-top: 40px;
 }
 
 .project {
@@ -426,7 +427,7 @@ li {
 }
 
 .project-image {
-  max-width: 50% !important;
+  max-width: 45%;
 }
 
 .project-content-text {

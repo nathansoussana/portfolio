@@ -1,3 +1,11 @@
 export default function ButtonSecondary({ text, link }) {
-  return <a className="btn btn-secondary" href={link}>{text}</a>
+  return (
+    <a 
+      className="btn btn-secondary" 
+      href={link}
+      target="_blank"
+    >
+      {text}
+    </a>
+  )
 }
