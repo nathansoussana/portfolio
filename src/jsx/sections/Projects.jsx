@@ -7,17 +7,42 @@ function contentDirection(index) {
 
 const projects = projectData.map((project, index) => {
   return (
-    <div className="project" key={project.title} dir={contentDirection(index)}> 
+    <div 
+      className="project" 
+      key={project.title} 
+      dir={((contentDirection(index)))}
+    > 
+    
       {/* Project Image */}
-      <img src={project.image} alt={project.title} className="project-image" />
+      <img 
+        src={project.image} 
+        alt={project.title} 
+        className="project-image" 
+      />
+
       {/* Project Content */}
-      <div className="project-content" dir='ltr'>
-        <h2 className="project-content-title">{project.title}</h2>
-        <p className="project-content-text">{project.description}</p>
-        <p className="project-content-skills">{project.skills}</p>
+      <div 
+        className="project-content" 
+        dir='ltr'
+      >
+        <h2 className="project-content-title">
+          {project.title}
+        </h2>
+        <p className="project-content-text">
+          {project.description}
+        </p>
+        <p className="project-content-skills">
+          {project.skills}
+        </p>
         <div className="project-content-btn-container">
-          <ButtonSecondary text={project.websiteBtn} link={project.websiteURL} />
-          <ButtonSecondary text={project.githubBtn} link={project.githubURL} />
+          <ButtonSecondary 
+            text={project.websiteBtn} 
+            link={project.websiteURL} 
+          />
+          <ButtonSecondary 
+            text={project.githubBtn} 
+            link={project.githubURL} 
+          />
         </div>
       </div>
     </div>
