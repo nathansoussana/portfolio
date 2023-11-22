@@ -4,6 +4,7 @@ export default function ButtonSecondary({ text, link }) {
       className="btn btn-secondary" 
       href={link}
       target="_blank"
+      rel="noopener noreferrer"
     >
       {text}
     </a>

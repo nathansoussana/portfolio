@@ -5,8 +5,7 @@ function contentDirection(index) {
   return (index % 2 === 0) ? "ltr" : "rtl"
 }
 
-const projects = projectData.map((project, index) => {
-  return (
+const projects = projectData.map((project, index) => (
     <div 
       className="project" 
       key={project.title} 
@@ -47,7 +46,7 @@ const projects = projectData.map((project, index) => {
       </div>
     </div>
   )
-})
+)
 
 export default function Projects() {
   return (

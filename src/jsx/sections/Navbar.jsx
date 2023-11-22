@@ -1,3 +1,18 @@
+import { socialLinks } from '../../data/social'
+
+const socials = socialLinks.map(social => (
+    <li className="navbar-links-li">
+      <a 
+        className="navbar-links-li-link"
+        href={social.link}
+        target="_blank" 
+      >
+        <i className={social.icon}></i>
+      </a>
+    </li>
+  )
+)
+
 export default function Navbar() {
   return (
     <nav>
@@ -9,28 +24,7 @@ export default function Navbar() {
 
       {/* Social Links */}
       <ul className="navbar-links">
-
-        {/* GitHub */}
-        <li className="navbar-links-li">
-          <a 
-            className="navbar-links-li-link"
-            href="https://github.com/nathansoussana" 
-            target="_blank" 
-          >
-            <i className="devicon-github-original"></i>
-          </a>
-        </li>
-
-        {/* Linkedin */}
-        <li className="navbar-links-li">
-          <a 
-            className="navbar-links-li-link"
-            href="https://www.linkedin.com/in/nathansoussana/" 
-            target="_blank" 
-          >
-            <i className="devicon-linkedin-plain"></i>
-          </a>
-        </li>
+        {socials}
       </ul>
     </nav>
   )
