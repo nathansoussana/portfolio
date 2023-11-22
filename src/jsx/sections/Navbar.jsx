@@ -1,6 +1,7 @@
 export default function Navbar() {
   return (
     <nav>
+      
       {/* Logo */}
       <h3 className="navbar-logo">
         nathansoussana
@@ -16,10 +17,6 @@ export default function Navbar() {
             href="https://github.com/nathansoussana" 
             target="_blank" 
             rel="noopener noreferrer">
-            {/* <img 
-              className="navbar-links-li-icon" 
-              src="src/assets/github.png"
-            /> */}
             <i className="devicon-github-original"></i>
           </a>
         </li>
@@ -31,28 +28,9 @@ export default function Navbar() {
             href="https://www.linkedin.com/in/nathansoussana/" 
             target="_blank" 
             rel="noopener noreferrer">
-            {/* <img 
-              className="navbar-links-li-icon" 
-              src="src/assets/linkedin.png"
-            /> */}
             <i className="devicon-linkedin-plain"></i>
           </a>
         </li>
-
-        {/* Email
-        <li className="navbar-links-li">
-          <a 
-            className="navbar-links-li-link"
-            href="mailto:nathan.soussana@gmail.com" 
-            target="_blank" 
-            rel="noopener noreferrer">
-            <img 
-              className="navbar-links-li-icon" 
-              src="src/assets/email.png"
-            />
-          </a>
-        </li> */}
-
       </ul>
     </nav>
   )
