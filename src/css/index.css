@@ -223,84 +223,6 @@ li {
     line-height: 42px;
   }
 }
-.skills-list {
-  margin-bottom: 40px;
-  font-weight: 200;
-  display: flex;
-  gap: 5px;
-  flex-wrap: wrap;
-}
-
-.skill {
-  color: #FAFAFA;
-  background-color: #5FB4A2;
-  padding: 0 15px;
-  border-radius: 4px;
-}
-
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-html {
-  background: #FAFAFA;
-  font-family: "Public Sans", sans-serif;
-  color: #33323D;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.main-container {
-  max-width: 1100px;
-  padding: 25px;
-  margin: 0 auto;
-}
-
-section {
-  margin-bottom: 100px;
-}
-
-h1, h2, h3 {
-  font-family: "Ibarra Real Nova", serif;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 50px;
-  line-height: 50px;
-  letter-spacing: -0.45px;
-}
-
-h2 {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 42px;
-  letter-spacing: -0.36px;
-}
-
-h3 {
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 36px;
-  letter-spacing: -0.29px;
-}
-
-ul {
-  padding: 0;
-}
-
-li {
-  list-style: none;
-}
-
-@media screen and (max-width: 400px) {
-  h1 {
-    font-size: 40px;
-    line-height: 42px;
-  }
-}
 .btn {
   text-transform: uppercase;
   cursor: pointer;
@@ -504,7 +426,7 @@ li {
 }
 
 .project-image {
-  max-width: 45%;
+  max-width: 50% !important;
 }
 
 .project-content-text {
