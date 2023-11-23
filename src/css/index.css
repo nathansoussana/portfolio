@@ -328,6 +328,7 @@ li {
 
 .hero-content-text {
   margin: 25px 0;
+  max-width: 400px;
 }
 
 .hero-image {
@@ -346,7 +347,8 @@ li {
     align-items: start;
     gap: 50px;
   }
-  .hero-image {
+  .hero-image,
+  .hero-content-text {
     max-width: 100%;
   }
 }
@@ -436,9 +438,11 @@ li {
 
 .project-content-text {
   margin: 25px 0;
+  max-width: 400px;
 }
 
 .project-content-skills {
+  max-width: 400px;
   margin-bottom: 25px;
   color: #5FB4A2;
   font-weight: 600;
@@ -467,6 +471,10 @@ li {
   .project {
     flex-direction: column;
     gap: 50px;
+  }
+  .project-content-text,
+  .project-content-skills {
+    max-width: 100%;
   }
 }
 
