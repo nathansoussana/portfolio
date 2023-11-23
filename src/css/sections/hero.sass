@@ -1,6 +1,6 @@
 @use '../general/general'
 
-.hero
+.hero-container
   display: flex
   justify-content: space-between
   align-items: center
@@ -8,7 +8,6 @@
 
 .hero-content-text
   margin: 25px 0
-  max-width: 400px
 
 .hero-image
   max-width: 45%
@@ -20,12 +19,11 @@
     max-width: 40%
 
 @media screen and (max-width: 750px)
-  .hero
+  .hero-container
     flex-direction: column
     align-items: start
     gap: 50px
 
-  .hero-image,
-  .hero-content-text
+  .hero-image
     max-width: 100%
   

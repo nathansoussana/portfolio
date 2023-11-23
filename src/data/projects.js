@@ -2,7 +2,7 @@ export const projectData = [
   {
     image: 'assets/thelocalsportsclub.png',
     title: 'The Local Sports Club',
-    description: 'My most advanced full-stack application built in a team of 5 with Rails. We created the models and the database structure, built nested routes, added functionalities seach as authentication, live chat and geocoding. I was the team lead for this project and responsible for the team organisation, code reviews, merging, and the overall front-end work.',
+    description: 'Full-stack application built in a team of 5 with Ruby on Rails. We created the models and the database structure, built nested routes, added functionalities seach as authentication, live chat and geocoding. I was the team lead for this project and responsible for the team organisation, code reviews, merging, and the overall front-end work.',
     skills: 'HTML / Sass / Bootstrap / JavaScript / Ruby / Rails / SQL / Figma',
     websiteBtn: 'Visit Website',
     websiteURL: 'http://www.thelocalsportsclub.com',

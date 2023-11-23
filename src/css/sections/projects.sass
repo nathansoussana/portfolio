@@ -1,6 +1,6 @@
 @use '../general/general'
-  
-.projects-container
+
+.projects
   display: flex
   flex-direction: column
   gap: 100px
@@ -19,10 +19,8 @@
   
 .project-content-text
   margin: 25px 0
-  max-width: 400px
 
 .project-content-skills
-  max-width: 400px
   margin-bottom: 25px
   color: general.$hover-color-primary
   font-weight: 600
@@ -47,7 +45,3 @@
   .project
     flex-direction: column
     gap: 50px
-
-  .project-content-text,
-  .project-content-skills
-    max-width: 100%
