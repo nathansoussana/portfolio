@@ -1,7 +1,10 @@
 import { socialLinks } from '../../data/social'
 
 const socials = socialLinks.map(social => (
-    <li className="navbar-links-li">
+    <li 
+      className="navbar-links-li"
+      key={social.name}
+    >
       <a 
         className="navbar-links-li-link"
         href={social.link}

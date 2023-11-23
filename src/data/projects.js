@@ -12,8 +12,7 @@ export const projectData = [
   {
     image: 'assets/rockpaperscissors.png',
     title: 'Rock Paper Scissors',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    skills: 'HTML / CSS / JavaScript',
+    description: 'A classic Rock-Paper-Scissors game built to train my Vanilla JavaScript skills: defining the rules of the game with conditional statements, as well as walking the user through the game with a series of organised functions modifying the score and the styles.',
     websiteBtn: 'Visit Website',
     websiteURL: 'https://rock-paper-scissors-nathan-soussana.netlify.app/',
     githubBtn: 'View on GitHub',
