@@ -52,7 +52,7 @@ export default function Projects() {
   return (
     <section className="projects-section">
       <h2 className="projects-section-title">
-        Projects
+        Work
       </h2>
       <div className="projects-container">
         {projects}

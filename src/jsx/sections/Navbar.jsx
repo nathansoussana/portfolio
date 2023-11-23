@@ -16,16 +16,8 @@ const socials = socialLinks.map(social => (
 export default function Navbar() {
   return (
     <nav>
-      
-      {/* Logo */}
-      <h3 className="navbar-logo">
-        nathansoussana
-      </h3>
-
-      {/* Social Links */}
-      <ul className="navbar-links">
-        {socials}
-      </ul>
+      <h3 className="navbar-logo">nathansoussana</h3>
+      <ul className="navbar-links">{socials}</ul>
     </nav>
   )
 }

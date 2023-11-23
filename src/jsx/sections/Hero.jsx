@@ -6,9 +6,7 @@ export default function Hero() {
 
         {/* Content */}
         <div className="hero-content">
-          <h1 className="hero-content-title">
-            Nice to meet you!
-          </h1>
+          <h1 className="hero-content-title">Nice to meet you!</h1>
           <p className="hero-content-text">
             My name is Nathan Soussana. I&apos;m a front-end developer based in Zürich, Switzlerand, passionate about building clean and beautiful web apps that users love. I focus mostly on React and JavaScript.
           </p>
