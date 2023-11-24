@@ -3,11 +3,11 @@ import { socialLinks } from '../../data/social'
 
 const socials = socialLinks.map(social => (
   <li 
-    className="navbar-links-li"
+    className="social-icon-item"
     key={social.name}
   >
     <a 
-      className="navbar-links-li-link"
+      className="social-icon-item-link"
       href={social.link}
       target="_blank" 
     >
