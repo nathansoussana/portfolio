@@ -30,10 +30,17 @@
   gap: 10px
   flex-wrap: wrap
 
+@media screen and (max-width: general.$tablet-large)
+  .project
+    gap: 75px
+
 @media screen and (max-width: general.$tablet)
+  .project
+    gap: 50px
+
+@media screen and (max-width: general.$tablet-small)
   .project-image
     max-width: 100%
 
   .project
     flex-direction: column
-    gap: 50px

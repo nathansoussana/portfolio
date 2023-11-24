@@ -12,10 +12,17 @@
 .contact-content-text
   margin: 24px 0
 
+@media screen and (max-width: general.$tablet-large)
+  .contact-container
+    gap: 75px
+
 @media screen and (max-width: general.$tablet)
   .contact-container
+    gap: 50px
+
+@media screen and (max-width: general.$tablet-small)
+  .contact-container
     flex-direction: column
-    gap: 40px
 
   .contact-content
     max-width: 100%

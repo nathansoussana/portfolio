@@ -13,12 +13,18 @@
   max-width: 45%
   object-fit: contain
 
+@media screen and (max-width: general.$tablet-large)
+  .hero-container
+    gap: 75px
 
 @media screen and (max-width: general.$tablet)
   .hero-container
+    gap: 50px
+
+@media screen and (max-width: general.$tablet-small)
+  .hero-container
     flex-direction: column
     align-items: start
-    gap: 50px
 
   .hero-image
     max-width: 100%
