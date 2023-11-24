@@ -1,0 +1,33 @@
+@use '../general/general'
+
+.emailForm
+  display: flex
+  flex-direction: column
+  width: 100%
+
+label
+  font-size: 13px
+  font-weight: 700
+  line-height: 30px
+
+input,
+textarea
+  color: general.$text-color
+  background: general.$field-color
+  border: none
+  font-size: 13px
+  line-height: 30px
+  font-weight: 300
+  padding: 9px 16px
+  margin: 8px 0 24px
+
+  &:focus
+    border: 1px solid general.$hover-color-primary
+    outline: none
+
+input
+  height: 48px
+  
+textarea
+  font-family: $sans-serif
+  height: 96px

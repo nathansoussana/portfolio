@@ -1,0 +1,21 @@
+@use '../general/general'
+
+.footer-container
+  display: flex
+  justify-content: space-between
+  align-items: flex-start
+  gap: 100px
+
+.footer-content
+  max-width: 350px
+
+.footer-content-text
+  margin: 24px 0
+
+@media screen and (max-width: 750px)
+  .footer-container
+    flex-direction: column
+    gap: 40px
+
+  .footer-content
+    max-width: 100%
