@@ -55,7 +55,7 @@ li {
   list-style: none;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
   section {
     margin-bottom: 60px;
   }
@@ -121,7 +121,7 @@ li {
   list-style: none;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
   section {
     margin-bottom: 60px;
   }
@@ -222,7 +222,7 @@ li {
   list-style: none;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
   section {
     margin-bottom: 60px;
   }
@@ -327,7 +327,7 @@ li {
   list-style: none;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
   section {
     margin-bottom: 60px;
   }
@@ -413,7 +413,7 @@ li {
   list-style: none;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
   section {
     margin-bottom: 60px;
   }
@@ -491,7 +491,7 @@ li {
   list-style: none;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
   section {
     margin-bottom: 60px;
   }
@@ -516,17 +516,17 @@ li {
   object-fit: contain;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .hero-container {
     gap: 75px;
   }
 }
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
   .hero-container {
     gap: 50px;
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 715px) {
   .hero-container {
     flex-direction: column;
     align-items: start;
@@ -592,7 +592,7 @@ li {
   list-style: none;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
   section {
     margin-bottom: 60px;
   }
@@ -638,17 +638,17 @@ li {
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1000px) {
-  .project {
-    gap: 75px;
-  }
-}
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 1100px) {
   .project {
     gap: 50px;
   }
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 860px) {
+  .project {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 715px) {
   .project-image {
     max-width: 100%;
   }
@@ -713,7 +713,7 @@ li {
   list-style: none;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
   section {
     margin-bottom: 60px;
   }
@@ -737,17 +737,15 @@ li {
   margin: 24px 0;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .contact-container {
     gap: 75px;
   }
 }
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 860px) {
   .contact-container {
     gap: 50px;
   }
-}
-@media screen and (max-width: 760px) {
   .contact-container {
     flex-direction: column;
   }

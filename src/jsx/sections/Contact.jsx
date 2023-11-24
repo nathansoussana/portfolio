@@ -26,7 +26,7 @@ export default function Contact() {
             Contact
           </h2>
           <p className="contact-content-text">
-            I’d love to hear about what you’re working on and how I could help. I’m currently looking for a new role, preferrably in a company in Zürich area. Please do feel free to check out my online profiles get in touch using the form.
+            I’d love to hear about what you’re working on and how I could help. I’m currently looking for a new role, preferrably in Zürich area. Feel free to check out my online profiles and send me an email using the form.
           </p>
           <ul className="navbar-links">
             {socials}

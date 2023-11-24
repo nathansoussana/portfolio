@@ -49,7 +49,7 @@ export default function ContactForm() {
       />
       <input 
         type="submit" 
-        value="Send" 
+        value="Submit" 
         className="btn btn-primary"
       />
     </form>
