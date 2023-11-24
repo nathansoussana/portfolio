@@ -1,21 +1,21 @@
 @use '../general/general'
 
-.footer-container
+.contact-container
   display: flex
   justify-content: space-between
   align-items: flex-start
   gap: 100px
 
-.footer-content
+.contact-content
   max-width: 350px
 
-.footer-content-text
+.contact-content-text
   margin: 24px 0
 
-@media screen and (max-width: 750px)
-  .footer-container
+@media screen and (max-width: general.$tablet)
+  .contact-container
     flex-direction: column
     gap: 40px
 
-  .footer-content
+  .contact-content
     max-width: 100%

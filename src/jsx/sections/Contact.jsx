@@ -17,15 +17,15 @@ const socials = socialLinks.map(social => (
 )
 )
 
-export default function Footer() {
+export default function Contact() {
   return (
     <footer>
-      <div className="container footer-container">
-        <div className="footer-content">
-          <h2 className="footer-content-title">
+      <div className="container contact-container">
+        <div className="contact-content">
+          <h2 className="contact-content-title">
             Contact
           </h2>
-          <p className="footer-content-text">
+          <p className="contact-content-text">
             I’d love to hear about what you’re working on and how I could help. I’m currently looking for a new role, preferrably in a company in Zürich area. Please do feel free to check out my online profiles get in touch using the form.
           </p>
           <ul className="navbar-links">

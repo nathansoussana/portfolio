@@ -14,7 +14,7 @@ $sans-serif: 'Public Sans', sans-serif
 
 // Breakpoints
 $mobile: 400px
-$tablet: 800px
+$tablet: 820px
 
 // Text, Background
 *
@@ -65,7 +65,10 @@ li
   list-style: none
 
 // Mobile styles
-@media screen and (max-width: $mobile)
+@media screen and (max-width: $tablet)
+  section
+    margin-bottom: 60px
+
   h1
     font-size: 40px
     line-height: 42px
