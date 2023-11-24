@@ -142,6 +142,7 @@ li {
   width: 152px;
   height: 48px;
   text-decoration: none;
+  border-radius: 0;
 }
 
 .btn-primary {
@@ -252,6 +253,7 @@ textarea {
   font-weight: 300;
   padding: 9px 16px;
   margin: 8px 0 24px;
+  border-radius: 0;
 }
 input:focus,
 textarea:focus {
