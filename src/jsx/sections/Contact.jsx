@@ -19,7 +19,7 @@ const socials = socialLinks.map(social => (
 
 export default function Contact() {
   return (
-    <footer>
+    <section className="contact-section">
       <div className="container contact-container">
         <div className="contact-content">
           <h2 className="contact-content-title">
@@ -34,6 +34,6 @@ export default function Contact() {
         </div>
         <ContactForm />
       </div>
-    </footer>
+    </section>
   )
 }
