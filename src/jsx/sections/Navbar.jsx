@@ -1,4 +1,5 @@
 import Hamburger from '../components/Hamburger'
+import NavLink from '../components/NavLink'
 
 export default function Navbar() {
   return (
@@ -8,18 +9,10 @@ export default function Navbar() {
           <h3 className="navbar-logo">nathansoussana</h3>
         </a>
         <ul className="navbar-link-list">
-          <a href="#" className="navbar-item-link">
-            <li className="navbar-list-item">Home</li>
-          </a>
-          <a href="#skills" className="navbar-item-link">
-            <li className="navbar-list-item">Skills</li>
-          </a>
-          <a href="#work" className="navbar-item-link">
-            <li className="navbar-list-item">Work</li>
-          </a>
-          <a href="#contact" className="navbar-item-link">
-            <li className="navbar-list-item">Contact</li>
-          </a>
+          <NavLink title="Home" link="#" />
+          <NavLink title="Skills" link="#skills" />
+          <NavLink title="Work" link="#work" />
+          <NavLink title="Contact" link="#contact" />
         </ul>
         <Hamburger />
       </div>
