@@ -2,7 +2,7 @@ import ButtonPrimary from '../components/ButtonPrimary'
 
 export default function Hero() {
   return (
-      <section className="hero-section">
+      <section className="hero-section" id="hero">
         <div className="container hero-container">
 
           {/* Content */}

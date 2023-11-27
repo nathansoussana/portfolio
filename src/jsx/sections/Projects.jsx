@@ -50,7 +50,7 @@ const projects = projectData.map((project, index) => (
 
 export default function Projects() {
   return (
-    <section className="projects-section">
+    <section className="projects-section" id="work">
       <div className="container projects-section-container">
         <h2 className="projects-section-title">
           Work

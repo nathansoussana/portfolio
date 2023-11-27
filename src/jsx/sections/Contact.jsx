@@ -1,25 +1,26 @@
+
 import ContactForm from '../components/EmailForm'
 import { socialLinks } from '../../data/social'
 
 const socials = socialLinks.map(social => (
-  <li 
-    className="social-icon-item"
-    key={social.name}
+  <a 
+    className="social-icon-item-link"
+    href={social.link}
+    target="_blank"
   >
-    <a 
-      className="social-icon-item-link"
-      href={social.link}
-      target="_blank" 
+    <li 
+      className="social-icon-item"
+      key={social.name}
     >
       <i className={social.icon}></i>
-    </a>
-  </li>
+    </li>
+  </a>
 )
 )
 
 export default function Contact() {
   return (
-    <section className="contact-section">
+    <section className="contact-section" id="contact">
       <div className="container contact-container">
         <div className="contact-content">
           <h2 className="contact-content-title">

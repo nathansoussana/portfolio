@@ -10,6 +10,7 @@ html {
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -73,6 +74,7 @@ html {
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -171,6 +173,7 @@ html {
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -273,6 +276,7 @@ html {
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -324,23 +328,23 @@ li {
     line-height: 42px;
   }
 }
-.devicon-linkedin-plain {
-  margin-left: 25px;
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 .social-icon-item-link {
-  display: flex;
-  align-items: center;
   text-decoration: none;
 }
 
-.devicon-github-original,
-.devicon-linkedin-plain {
+.social-icon-item {
+  display: flex;
+  align-items: center;
   font-size: 25px;
   color: #33323D;
 }
-.devicon-github-original:hover,
-.devicon-linkedin-plain:hover {
+.social-icon-item:hover {
   color: #5FB4A2;
 }
 
@@ -356,6 +360,7 @@ html {
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -425,6 +430,7 @@ html {
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -482,9 +488,25 @@ li {
   align-items: center;
 }
 
-.navbar-links {
+.navbar-link-list {
   display: flex;
   list-style: none;
+  gap: 40px;
+}
+
+.navbar-logo-link,
+.navbar-item-link {
+  text-decoration: none;
+}
+.navbar-logo-link:visited,
+.navbar-item-link:visited {
+  color: inherit;
+}
+
+.navbar-list-item {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 
 * {
@@ -499,6 +521,7 @@ html {
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -601,6 +624,7 @@ html {
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
+  scroll-behavior: smooth;
 }
 
 .container {
@@ -719,6 +743,7 @@ html {
   font-weight: 300;
   font-size: 16px;
   line-height: 30px;
+  scroll-behavior: smooth;
 }
 
 .container {
