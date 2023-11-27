@@ -27,3 +27,17 @@ nav
   text-transform: uppercase
   font-size: 12px
   letter-spacing: 2px
+
+  &:hover
+    color: general.$hover-color-primary
+
+.hamburger-icon
+  display: none
+
+@media screen and (max-width: general.$mobile-large)
+  .navbar-link-list
+    display: none
+
+  .hamburger-icon
+    display: block
+    

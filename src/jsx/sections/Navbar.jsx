@@ -1,3 +1,5 @@
+import Hamburger from '../components/Hamburger'
+
 export default function Navbar() {
   return (
     <nav>
@@ -6,6 +8,9 @@ export default function Navbar() {
           <h3 className="navbar-logo">nathansoussana</h3>
         </a>
         <ul className="navbar-link-list">
+          <a href="#" className="navbar-item-link">
+            <li className="navbar-list-item">Home</li>
+          </a>
           <a href="#skills" className="navbar-item-link">
             <li className="navbar-list-item">Skills</li>
           </a>
@@ -16,6 +21,7 @@ export default function Navbar() {
             <li className="navbar-list-item">Contact</li>
           </a>
         </ul>
+        <Hamburger />
       </div>
     </nav>
   )
