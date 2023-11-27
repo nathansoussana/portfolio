@@ -574,6 +574,7 @@ nav {
 
 .navbar-logo-link,
 .navbar-item-link {
+  color: #33323D;
   text-decoration: none;
 }
 .navbar-logo-link:visited,
