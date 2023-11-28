@@ -37,7 +37,20 @@ nav
 
 @media screen and (max-width: general.$tablet-small)
   .navbar-link-list
-    display: none
+    flex-direction: column
+    align-items: center
+    padding: 40px 0
+    gap: 21px
+    background: general.$bgd-color
+    width: 223px
+    position: absolute
+    top: 86px
+    right: 25px
+    border: 1px solid general.$field-color
+
+  .navbar-list-item
+    color: general.$text-color
+
 
   .hamburger-icon
     display: block

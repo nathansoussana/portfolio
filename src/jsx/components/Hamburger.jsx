@@ -1,6 +1,6 @@
-export default function Hamburger() {
+export default function Hamburger({ onClick }) {
   return (
-    <div className="hamburger-icon">
+    <div className="hamburger-icon" onClick={onClick}>
       <div className="hamburger-line"></div>
       <div className="hamburger-line"></div>
       <div className="hamburger-line"></div>

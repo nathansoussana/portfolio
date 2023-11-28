@@ -597,7 +597,19 @@ nav {
 
 @media screen and (max-width: 715px) {
   .navbar-link-list {
-    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    gap: 21px;
+    background: #FAFAFA;
+    width: 223px;
+    position: absolute;
+    top: 86px;
+    right: 25px;
+    border: 1px solid #EAEAEB;
+  }
+  .navbar-list-item {
+    color: #33323D;
   }
   .hamburger-icon {
     display: block;

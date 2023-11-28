@@ -1,7 +1,21 @@
+import { useState, useEffect } from 'react'
 import Hamburger from '../components/Hamburger'
 import NavLink from '../components/NavLink'
 
 export default function Navbar() {
+  const [openMenu, setOpenMenu] = useState(false)
+
+  useEffect(() => {
+    const navbarLinkList = document.querySelector('.navbar-link-list')
+    navbarLinkList.style.display = openMenu ? 'flex' : 'none'
+  }, 
+    [openMenu]
+  )
+
+  function handleClick() {
+    setOpenMenu(openMenu => !openMenu)
+  }
+
   return (
     <nav>
       <div className="container nav-container">
@@ -11,13 +25,13 @@ export default function Navbar() {
         </a>
 
         <ul className="navbar-link-list">
-          <NavLink title="Home" link="#" />
-          <NavLink title="Skills" link="#skills" />
-          <NavLink title="Work" link="#work" />
-          <NavLink title="Contact" link="#contact" />
+          <NavLink title="Home" link="#" onClick={handleClick} />
+          <NavLink title="Skills" link="#skills" onClick={handleClick} />
+          <NavLink title="Work" link="#work" onClick={handleClick} />
+          <NavLink title="Contact" link="#contact" onClick={handleClick} />
         </ul>
 
-        <Hamburger />
+        <Hamburger onClick={handleClick} />
         
       </div>
     </nav>
