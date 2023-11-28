@@ -149,6 +149,9 @@ li {
 .btn-primary:hover {
   background: #5FB4A2;
 }
+.btn-primary:active {
+  background: #203A4C;
+}
 
 .btn-form {
   margin: 0;
@@ -163,6 +166,9 @@ li {
   background: #5FB4A2;
   border-color: #5FB4A2;
   color: #FAFAFA;
+}
+.btn-secondary:active {
+  background: #FAFAFA;
 }
 
 * {
