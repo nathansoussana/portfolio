@@ -265,7 +265,12 @@ input {
 
 textarea {
   font-family: "Public Sans", sans-serif;
-  height: 96px;
+  min-height: 96px;
+  resize: vertical;
+}
+
+.emailFormInput {
+  height: auto;
 }
 
 .form-submit {
@@ -276,7 +281,12 @@ textarea {
 
 .message-sent {
   color: #5FB4A2;
-  font-weight: 300;
+  font-size: 13px;
+}
+
+.message-error {
+  color: #F43030;
+  font-size: 13px;
 }
 
 * {

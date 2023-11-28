@@ -9,7 +9,18 @@ export default function ContactForm() {
 
   const sendEmail = (e) => {
     e.preventDefault()
-    setEmailStatus('...')
+
+    const name = form.current.elements.from_name.value
+    const email = form.current.elements.from_email.value
+    const message = form.current.elements.message.value
+  
+    // Validate the form fields
+    if (!name || !email || !message) {
+      setEmailStatus('Please fill in all fields.')
+      return
+    }
+  
+    setEmailStatus('Sending...')
 
     emailjs.sendForm(
       'service_ogf20vn', 
@@ -20,7 +31,7 @@ export default function ContactForm() {
       .then((result) => {
         console.log(result.text)
         form.current.reset()
-        setEmailStatus('Message sent ✓')
+        setEmailStatus('Sent ✓')
       }, (error) => {
         console.log(error.text)
         setEmailStatus('An error occurred. Please try again.')
@@ -69,7 +80,11 @@ export default function ContactForm() {
           value="Submit" 
           className="btn btn-primary btn-form" 
         />
-        {emailStatus && <p className="message-sent">{emailStatus}</p>}
+        { emailStatus && 
+          <p className={`message-sent ${emailStatus === 'Please fill in all fields.' ? 'message-error' : ''}`}>
+              {emailStatus}
+          </p>
+        }
       </div>
     </form>
   )

@@ -31,7 +31,11 @@ input
   
 textarea
   font-family: $sans-serif
-  height: 96px
+  min-height: 96px
+  resize: vertical
+
+.emailFormInput
+  height: auto
 
 .form-submit
   display: flex
@@ -40,4 +44,8 @@ textarea
 
 .message-sent
   color: general.$hover-color-primary
-  font-weight: 300
+  font-size: 13px
+
+.message-error
+  color: general.$errors-color
+  font-size: 13px
