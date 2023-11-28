@@ -1,11 +1,15 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 
 export default function ContactForm() {
+  // const [emailSent, setEmailSent] = useState(false)
+  const [emailStatus, setEmailStatus] = useState('')
+
   const form = useRef()
 
   const sendEmail = (e) => {
     e.preventDefault()
+    setEmailStatus('...')
 
     emailjs.sendForm(
       'service_ogf20vn', 
@@ -14,9 +18,12 @@ export default function ContactForm() {
       'OvHNMLeZpHGDSD1OO'
       )
       .then((result) => {
-          console.log(result.text)
+        console.log(result.text)
+        form.current.reset()
+        setEmailStatus('Message sent ✓')
       }, (error) => {
-          console.log(error.text)
+        console.log(error.text)
+        setEmailStatus('An error occurred. Please try again.')
       })
   }
 
@@ -56,11 +63,14 @@ export default function ContactForm() {
         className="emailFormInput" 
       />
 
-      <input 
-        type="submit" 
-        value="Submit" 
-        className="btn btn-primary" 
-      />
+      <div className="form-submit">
+        <input 
+          type="submit" 
+          value="Submit" 
+          className="btn btn-primary btn-form" 
+        />
+        {emailStatus && <p className="message-sent">{emailStatus}</p>}
+      </div>
     </form>
   )
 }

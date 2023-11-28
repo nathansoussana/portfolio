@@ -150,6 +150,10 @@ li {
   background: #5FB4A2;
 }
 
+.btn-form {
+  margin: 0;
+}
+
 .btn-secondary {
   border: 1px solid #33323D;
   background: #FAFAFA;
@@ -262,6 +266,17 @@ input {
 textarea {
   font-family: "Public Sans", sans-serif;
   height: 96px;
+}
+
+.form-submit {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.message-sent {
+  color: #5FB4A2;
+  font-weight: 300;
 }
 
 * {
