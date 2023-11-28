@@ -4,12 +4,27 @@ import NavLink from '../components/NavLink'
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false)
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth)
+
+  useEffect(() => {
+    const handleResize = () => setWindowWidth(window.innerWidth)
+    window.addEventListener('resize', handleResize)
+    return () => window.removeEventListener('resize', handleResize)
+  }, 
+    []
+  )
 
   useEffect(() => {
     const navbarLinkList = document.querySelector('.navbar-link-list')
-    navbarLinkList.style.display = openMenu ? 'flex' : 'none'
+    
+    if (windowWidth <= 715) {
+      navbarLinkList.style.display = openMenu ? 'flex' : 'none'
+    } else {
+      navbarLinkList.style.display = 'flex'
+      setOpenMenu(false)
+    }
   }, 
-    [openMenu]
+    [openMenu, windowWidth]
   )
 
   function handleClick() {
