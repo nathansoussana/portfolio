@@ -41,7 +41,7 @@ export default function Navbar() {
 
         <ul className="navbar-link-list">
           <NavLink title="Home" link="#" onClick={handleClick} />
-          <NavLink title="Skills" link="#skills" onClick={handleClick} />
+          {/* <NavLink title="Skills" link="#skills" onClick={handleClick} /> */}
           <NavLink title="Work" link="#work" onClick={handleClick} />
           <NavLink title="Contact" link="#contact" onClick={handleClick} />
         </ul>
