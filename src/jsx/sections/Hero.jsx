@@ -7,13 +7,10 @@ export default function Hero() {
           <div className="hero-content">
 
             <h1 className="hero-content-title">
-              Nice to meet you!
+              Hi! I'm Nathan, a Front-End Developer.
             </h1>
             <p className="hero-content-text">
-              My name is Nathan Soussana. 
-              I&apos;m a front-end developer based in Zürich, Switzlerand, 
-              passionate about building clean and beautiful web apps that users love. 
-              I focus mostly on React and JavaScript.
+              Based in Zürich, Switzerland, I'm passionate about building clean and beautiful web experiences with React and JavaScript.
             </p>
             <ButtonPrimary 
               text="View Work" 
