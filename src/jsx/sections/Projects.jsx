@@ -16,6 +16,8 @@ const projects = projectData.map((project, index) => (
         src={project.image} 
         alt={project.title} 
         className="project-image" 
+        width="100%"
+        height="auto"
       />
 
       <div className="project-content" dir='ltr'>

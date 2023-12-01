@@ -22,6 +22,8 @@ export default function Hero() {
             src="assets/profile_picture.webp" 
             alt="Profile Picture" 
             className="hero-image" 
+            width="100%"
+            height="auto"
           />
 
         </div>
