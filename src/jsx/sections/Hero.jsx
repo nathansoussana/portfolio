@@ -19,7 +19,7 @@ export default function Hero() {
           </div>
 
           <img 
-            src="assets/profile_picture.jpeg" 
+            src="assets/profile_picture.webp" 
             alt="Profile Picture" 
             className="hero-image" 
           />

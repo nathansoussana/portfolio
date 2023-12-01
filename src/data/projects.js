@@ -1,6 +1,6 @@
 export const projectData = [
   {
-    image: 'assets/thelocalsportsclub.png',
+    image: 'assets/thelocalsportsclub.webp',
     title: 'The Local Sports Club',
     description: 'Full-stack application built in a team of 5 with Ruby on Rails. We created the models and the database structure, built nested routes, added features such as authentication, live chat and geocoding. I was the team lead for this project.',
     skills: 'HTML / Sass / Bootstrap / JavaScript / Ruby / Rails / SQL / Figma',
@@ -10,7 +10,7 @@ export const projectData = [
     githubURL: 'https://github.com/nathansoussana/local-sports-club',
   },
   {
-    image: 'assets/skilled.png',
+    image: 'assets/skilled.webp',
     title: 'E-Learning Landing Page',
     description: 'My first React application: A minimal landing page layout built with React and Sass. I practiced how to divide my sections in individual components and reuse similar UI elements through loops and props. Design from Frontend Mentor.',
     skills: 'HTML / Sass / JavaScript / React',
@@ -20,7 +20,7 @@ export const projectData = [
     githubURL: 'https://github.com/nathansoussana/skilled-elearning-landing-page',
   },
   {
-    image: 'assets/news.png',
+    image: 'assets/news.webp',
     title: 'News Homepage',
     description: 'A classic news website layout built to train my CSS skills with Grid and Flexbox, as well as my JavaScript knowledge with a typical navbar transforming into a hamburger menu on narrow screens. Design from Frontend Mentor.',
     skills: 'HTML / Sass / JavaScript',
@@ -30,7 +30,7 @@ export const projectData = [
     githubURL: 'https://github.com/nathansoussana/news-homepage',
   },
   {
-    image: 'assets/rockpaperscissors.png',
+    image: 'assets/rockpaperscissors.webp',
     title: 'Rock-Paper-Scissors Game',
     description: 'A classic Rock-Paper-Scissors game built to train my Vanilla JavaScript skills: defining the rules of the game with conditional statements, walking the user through the game with a series of organised functions modifying the score and the styles.',
     skills: 'HTML / CSS / JavaScript',
