@@ -1,4 +1,3 @@
-
 import SocialIcon from '../components/SocialIcon'
 import ContactForm from '../components/EmailForm'
 
