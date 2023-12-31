@@ -10,7 +10,7 @@ export default function Hero() {
               Hi! I'm Nathan, a Front-End Developer.
             </h1>
             <p className="hero-content-text">
-              Based in Zürich, Switzerland, I'm passionate about building clean and beautiful web experiences with React and JavaScript.
+              Based in Zürich, Switzerland, I'm passionate about building enticing web experiences with React and JavaScript.
             </p>
             <ButtonPrimary 
               text="View Work" 
