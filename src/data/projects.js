@@ -1,5 +1,15 @@
 export const projectData = [
   {
+    image: 'assets/vanlife.webp',
+    title: 'Vanlife - Work in Progress',
+    description: 'React application built with React Router, CSS Modules and Sass. In this project I learned React Router basics and advanced features, such as nested routes, search params, and more. Project idea and design from Scrimba.',
+    skills: 'HTML / Sass / JavaScript / React / React Router / CSS Modules / Figma',
+    websiteBtn: 'Visit Website',
+    websiteURL: 'https://vanlife-nathan-soussana.netlify.app',
+    githubBtn: 'View on GitHub',
+    githubURL: 'https://github.com/nathansoussana/vanlife',
+  },
+  {
     image: 'assets/thelocalsportsclub.webp',
     title: 'The Local Sports Club',
     description: 'Full-stack application built in a team of 5 with Ruby on Rails. We created the models and the database structure, built nested routes, added features such as authentication, live chat and geocoding. I was the team lead for this project.',
@@ -12,7 +22,7 @@ export const projectData = [
   {
     image: 'assets/skilled.webp',
     title: 'E-Learning Landing Page',
-    description: 'My first React application: A minimal landing page layout built with React and Sass. I practiced how to divide my sections in individual components and reuse similar UI elements through loops and props. Design from Frontend Mentor.',
+    description: 'My first React project: A minimal landing page layout built with React and Sass. I practiced how to divide my sections in individual components and reuse similar UI elements through loops and props. Design from Frontend Mentor.',
     skills: 'HTML / Sass / JavaScript / React',
     websiteBtn: 'Visit Website',
     websiteURL: 'https://skilled-elearning-lp-nathan-soussana.netlify.app/',
