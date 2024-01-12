@@ -2,7 +2,7 @@ export const projectData = [
   {
     image: 'assets/vanlife.webp',
     title: 'Vanlife - Work in Progress',
-    description: 'React application built with React Router, CSS Modules and Sass. In this project I learned React Router basics and advanced features, such as nested routes, search params, and more. Project idea and design from Scrimba.',
+    description: 'React application built with React Router, CSS Modules and Sass. In this project I practiced core React Router features such as nested routes, route params and protected routes. Project idea and design from Scrimba.',
     skills: 'HTML / Sass / JavaScript / React / React Router / CSS Modules / Figma',
     websiteBtn: 'Visit Website',
     websiteURL: 'https://vanlife-nathan-soussana.netlify.app',
