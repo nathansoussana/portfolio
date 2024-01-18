@@ -21,12 +21,7 @@ export default function ContactForm() {
   
     setEmailStatus('Sending...')
 
-    emailjs.sendForm(
-      'service_yez8nnm', 
-      'template_7zi5mgt', 
-      form.current, 
-      'OvHNMLeZpHGDSD1OO'
-      )
+    emailjs.sendForm('service_yez8nnm', 'template_7zi5mgt', form.current, 'OvHNMLeZpHGDSD1OO')
       .then((result) => {
         console.log(result.text)
         form.current.reset()
@@ -38,53 +33,22 @@ export default function ContactForm() {
   }
 
   return (
-    <form 
-      ref={form} 
-      onSubmit={sendEmail} 
-      className="emailForm"
-    >
+    <form ref={form} onSubmit={sendEmail} className="emailForm">
 
-      <label className="emailFormLabel">
-        Name
-      </label>
-      <input 
-        type="text" 
-        name="from_name"
-        placeholder="John Smith"
-        className="emailFormInput" 
-      />
+      <label className="emailFormLabel">Name</label>
+      <input type="text" name="from_name" placeholder="John Smith" className="emailFormInput" />
 
-      <label className="emailFormLabel">
-        Email
-      </label>
-      <input 
-        type="email" 
-        name="from_email" 
-        placeholder="email@example.com"
-        className="emailFormInput" 
-      />
+      <label className="emailFormLabel">Email</label>
+      <input type="email" name="from_email" placeholder="email@example.com"className="emailFormInput" />
 
-      <label className="emailFormLabel">
-        Message
-      </label>
-      <textarea 
-        name="message" 
-        placeholder="Type your message here..."
-        className="emailFormInput" 
-      />
+      <label className="emailFormLabel">Message</label>
+      <textarea name="message" placeholder="Type your message here..."className="emailFormInput" />
 
       <div className="form-submit">
-        <input 
-          type="submit" 
-          value="Submit" 
-          className="btn btn-primary btn-form" 
-        />
-        { emailStatus && 
-          <p className={`message-sent ${emailStatus === 'Please fill in all fields.' ? 'message-error' : ''}`}>
-              {emailStatus}
-          </p>
-        }
+        <input type="submit" value="Submit" className="btn btn-primary btn-form" />
+        { emailStatus && <p className={`message-sent ${emailStatus === 'Please fill in all fields.' ? 'message-error' : ''}`}>{emailStatus}</p> }
       </div>
+      
     </form>
   )
 }
