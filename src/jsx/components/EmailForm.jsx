@@ -1,8 +1,7 @@
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 
 export default function ContactForm() {
-  // const [emailSent, setEmailSent] = useState(false)
   const [emailStatus, setEmailStatus] = useState('')
 
   const form = useRef()
@@ -23,7 +22,7 @@ export default function ContactForm() {
     setEmailStatus('Sending...')
 
     emailjs.sendForm(
-      'service_ogf20vn', 
+      'service_yez8nnm', 
       'template_7zi5mgt', 
       form.current, 
       'OvHNMLeZpHGDSD1OO'
